@@ -1,0 +1,143 @@
+/*#####CORPO#####*/
+*{
+	margin: 0 auto;
+	font-family: "Arial";
+}
+body{
+	background-image: url(blue_night.jpg);
+	background-attachment: fixed;
+}
+main{
+	width: 1000px;
+	background-color: white;
+}
+/*#####MENU#####*/
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #B40404;
+	position: fixed;
+	top: 0;
+	left: 0;
+	line-height: 45px;
+}
+nav ul{
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+}
+nav a{
+	padding: 10px 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+/*#####CONTEÚDO#####*/
+h1{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+h2{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+div{
+	font-size: 20px;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+#intro p{
+	margin: 20px;
+}
+#ficha p{
+	margin: 20px;
+}
+#hist p{
+	margin: 20px;
+}
+#fam p{
+	margin: 20px;
+}
+#curse p{
+	margin: 20px;
+}
+ul {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;	
+}
+#intro{
+	width: 1000px;
+	height: auto;
+}
+#video{
+	text-align: center;
+}
+#ficha{
+	width: 1000px;
+	height: 800px;
+	background-color: #B40404;
+}
+#ficha article{
+	width: 550px;
+	height: 100%;
+	float: left;
+}
+#ficha aside{
+	width: 440px;
+	height: 100%;
+	margin-left: 10px;
+	float: left;
+}
+#ficha aside img{
+	width: 80%;
+	height: auto;
+}
+#hist{
+	width: 1000px;
+	height: auto;
+}
+#hist img{
+	margin-left: 100px;
+}
+#pensando{
+	text-align: center;
+}
+#fam{
+	width: 1000px;
+	height: auto;
+}
+#fam img{
+	margin: 10px 0 10px 100px;
+}
+#curse{
+	width: 1000px;
+	height: 550px;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+#curse ul{
+	list-style-type: none;
+}
+#curse li{
+	margin-bottom: 5px;
+}
+/*#####RODAPE#####*/
+footer{
+	width: 100%;
+	height: 400px;
+	background-color: #B40404;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 20px;
+}
+footer p{
+	margin-bottom: 25px;
+}
+#dorohedoro{
+	font-size: 100px;
+}
